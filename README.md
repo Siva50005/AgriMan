@@ -8,5 +8,5 @@ This Project Was Done Using AdobeXd , JAVA-SWING, MySQL ,LucidChart
 - [Aparna J](https://github.com/aparna8902)
 - [Siva A](https://github.com/Siva50005)
 - [Shandilyathithyaa Ma](https://github.com/Shandilyathithyaa)
-- [yurekan R V](https://github.com/yurekan)
+- [Yurekan R V](https://github.com/yurekan)
 
