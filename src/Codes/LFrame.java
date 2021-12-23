@@ -150,7 +150,7 @@ public class LFrame extends javax.swing.JFrame {
         try {
             conn =
             DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone" ,
-                                        "root","5566");
+                                        "root","****");
 
             // Do something with the Connection
 

@@ -45,7 +45,7 @@ public class Accounts extends javax.swing.JFrame {
     }
     void createConnection() throws Exception{
         Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","5566");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","****");
 
     }
      
@@ -3576,20 +3576,7 @@ public class Accounts extends javax.swing.JFrame {
     }//GEN-LAST:event_DeleteRecordMouseClicked
 
     private void DeleteRecord2MouseClicked(java.awt.event.MouseEvent evt) {                                          
-//        int Loan_Id = Integer.parseInt(Loan_IdD2.getText());
-//        try {
-//            dropMachinesData(Loan_Id);
-//        } catch (Exception ex) {
-//            Logger.getLogger(Accounts.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//        try {
-//            loadLoansData();
-//        } catch (Exception ex) {
-//            Logger.getLogger(Accounts.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//        ExView7.setVisible(false);
-//        DeletePanel2.setVisible(false);
-//        ViewPanel2.setVisible(true);
+
     }
     private void DeleteRecordMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_DeleteRecordMousePressed
         // TODO add your handling code here:
@@ -3734,7 +3721,7 @@ public class Accounts extends javax.swing.JFrame {
         try{
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","****");
             PreparedStatement pst;
             String fid  = inputFid.getText();
             String lid = inputLandid.getText();
@@ -3779,7 +3766,7 @@ public class Accounts extends javax.swing.JFrame {
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","****");
             String query = "select * from farmers";
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -3861,7 +3848,7 @@ public class Accounts extends javax.swing.JFrame {
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","****");
             String query = "select * from farmers";
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -3915,7 +3902,7 @@ public class Accounts extends javax.swing.JFrame {
         try{
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbccapstone","root","****");
 
             String query = "select * from farmers";
             Statement stmt = con.createStatement();
@@ -4229,7 +4216,7 @@ public class Accounts extends javax.swing.JFrame {
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","****");
             String query = "select * from SEEDS";
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -4258,7 +4245,7 @@ public class Accounts extends javax.swing.JFrame {
         try{
 
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","****");
             PreparedStatement pst;
             String stype  = inputSeedType.getText();
             float price = Float.parseFloat(inputSeedPrice.getText());
@@ -4345,7 +4332,7 @@ public class Accounts extends javax.swing.JFrame {
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","****");
             String query = "select * from SEEDS";
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -4402,7 +4389,7 @@ public class Accounts extends javax.swing.JFrame {
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","5566");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcCapstone","root","****");
             String query = "select * from SEEDS";
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(query);
